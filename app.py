@@ -1,6 +1,5 @@
 from datetime import timedelta
 
-from tkinter import E
 from unittest import result
 from flask import *
 import pymongo
