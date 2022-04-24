@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap");
+
+body,
+input {
+  font-size: 18px;
+  color: #585858;
+  height: 100vh;
+}
+header {
+  color: #1d9bf0;
+  font-size: 40px;
+  padding: 10px 0 0 0;
+  width: 20%;
+  text-align: center;
+}
+.container {
+  display: flex;
+  /* justify-content: space-around; */
+  height: 100%;
+}
+.main {
+  border-left: solid 1px rgb(219, 219, 219);
+  padding: 20px 0 0 30px;
+  width: 50%;
+}
+
+#tweets {
+  border-top: solid 1px rgb(219, 219, 219);
+  padding-top: 20px;
+  margin-top: 30px;
+}
+.error {
+  padding: 5px;
+  width: 100%;
+  background: rgb(202, 0, 0);
+  color: #fff;
+  margin: 10px 0;
+}
+.tweet-content {
+  background: rgba(29, 161, 242, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  font-size: 13px;
+}
+
+.tweet{
+  background: rgba(29, 161, 242, 0.1);
+  border-radius: 10px;
+  margin-bottom: 17.5px;
+  padding: 10px;
+  position: relative;
+}
+
+.deletebutton {
+  color: red;
+  position: absolute;
+  right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fa-heart {
+  color: grey;
+  position: absolute;
+  right: 65px;
+  top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fa-retweet {
+  color: grey;
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.liked {
+  color: blue;
+  font-size: 14px;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
+.tweet-header {
+  font-weight: bold;
+  color: blue;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.login-info, .logout-text{
+  font-size: 13px;
+}
